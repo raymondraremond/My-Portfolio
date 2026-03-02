@@ -49,7 +49,8 @@ a {
 
 .header-container .logo {
   color: #333;             /* logo dark */
-  /* margin-left: -350px; */
+  margin-left: 0;
+  align-self: flex-start;
 }
 
 .header-container .nav a {
@@ -90,6 +91,7 @@ a {
   margin-bottom: 70px;
   max-width: 100%;
   line-height: 1.2;
+  padding-left: 45px;
 }
 
 .hero-text p {
@@ -347,7 +349,7 @@ html {
 }
 
 .bottom {
-  border-radius: 30px;
+  border-radius: 10px;
   overflow: hidden;
 }
 
