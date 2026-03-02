@@ -438,6 +438,41 @@ section.fade-in {
   transform: translateY(0);
 }
 
+footer {
+  background-color: #131212;
+  color: #ccc;
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer.p {
+  text-align: center;
+  padding: 20px;
+  background-color: #1a1a1a;
+  color: #ccc;
+  margin-top: 0;
+}
+
+
+.hero-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+
+.hero-image img {
+  max-width: 100%;
+  border-radius: 10px;
+  background-color: black;
+  margin-left: 63px;
+}
+
+
 /* Responsive */
 @media (max-width: 768px) {
   .hamburger {
